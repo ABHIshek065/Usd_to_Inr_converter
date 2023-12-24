@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  background-color: #092635;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.btn {
+  background-color: black;
+  color: aliceblue;
+  padding: 16px 38px;
+  border: none;
+  border-radius: 16px;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 52px;
+  width: 100%;
+  margin-top: 12px;
+}
+
+.btn:hover{
+  background-color: whitesmoke;
+  color: black;
+}
+
+.card {
+  text-align: center;
+  background-color: #1B4242;
+  color: #ffff;
+  padding: 24px;
+  width: 500px;
+  margin: 70px auto;
+  border-radius: 16px;
+}
+
+.card h1 {
+  margin: 0;
+  font-size: 66px;
+}
+
+input {
+  border: 1px solid lightgrey;
+  padding: 15px;
+  border-radius: 12px;
+  font-size: 17px;
+}
+
+.form {
+  display: flex;
+}
+
+input:last-child {
+  margin-left: 12px;
+}
